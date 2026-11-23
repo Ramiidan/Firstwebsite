@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML and CSS, 7th Edition
+   Tutorial 8
+   Tutorial Case
+
+   Cinema Penguin Styles for Media
+   Author: Rami Altameemi
+   Date: November 22, 2026
+
+   Filename: cp_media.css
+
+*/
+
+/* Audio and Video Player Styles */
+
+
+
+audio, video {
+   display: block;
+   width: 90%;
+   margin: 10px auto;
+   filter: drop-shadow(8px 8px 15px rgb(51, 51, 51));
+}
+
+/* Track Styles */
+::cue {
+   background: transparent;
+   color: white;
+   text-shadow: 1px 1px 2px black;
+}
+::cue(.Title) { font: 2em serif; }
+
+
